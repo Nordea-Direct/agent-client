@@ -1,0 +1,76 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cfp="http://xmlns.crif.com/schema/CFProxy">
+   <soapenv:Header>
+      <cfp:username>gbunofinans_a2a</cfp:username>
+      <cfp:password>D+AsH2DFr?#y+rdw</cfp:password>
+   </soapenv:Header>
+   <soapenv:Body>
+      <cfp:ProcessExecuteAsync>
+         <processCacheId>GJENSIDIGE_LOAN_CARD_BETA</processCacheId>
+         <processVersion></processVersion>
+         <documentInput>
+<![CDATA[
+<DocumentInput>
+    <ApplicationSource>UnoFinans</ApplicationSource>
+    <InteractiveMode>
+        <StepID>3</StepID>
+    </InteractiveMode>
+    <LoanApplication>
+        <LoanData>
+            <ProductCode>UsikretLån</ProductCode>
+            <LoanAmount>20000</LoanAmount>
+            <DueDate>3</DueDate>
+            <LoanInsurance>N</LoanInsurance>
+            <RepaymentPeriod>60</RepaymentPeriod>
+            <LoanPurpose>10</LoanPurpose>
+            <CampaignCode>09988000</CampaignCode>
+        </LoanData>
+        <PrimaryApplicantData>
+            <SSN>05077826604</SSN>
+            <MembershipID>10775</MembershipID>
+            <MobilePhone>90886432</MobilePhone>
+            <Email>anja.granlund@tsa.no</Email>
+            <Citizen>Y</Citizen>
+            <BadDebt>N</BadDebt>
+            <TypeOfEmployment>1</TypeOfEmployment>
+            <Employer>CompanyOne</Employer>
+            <EmployedSince>0110</EmployedSince>
+            <AccomodationInformation>
+                <AccomodationType>1</AccomodationType>
+                <AddressSince>0199</AddressSince>
+                <CivilStatus>3</CivilStatus>
+                <Rent>0</Rent>
+                <NumberOfChildren>0</NumberOfChildren>
+            </AccomodationInformation>
+        </PrimaryApplicantData>
+        <ApplicationIncomeAndDebt>
+            <MainApplicantIncome>
+                <AnnualGrossIncome>800000</AnnualGrossIncome>
+            </MainApplicantIncome>
+            <NumberOfExternalDebts>1</NumberOfExternalDebts>
+            <ExternalDebts>
+                <DebtType>5</DebtType>
+                <Creditor>Usikret gjeld - innfris</Creditor>
+                <Balance>20000</Balance>
+                <MonthlyInstallment>2000</MonthlyInstallment>
+                <DebtOwner>M</DebtOwner>
+                <Consolidate>N</Consolidate>
+            </ExternalDebts>
+            <HouseHoldAggregateGrossIncome>800000</HouseHoldAggregateGrossIncome>
+        </ApplicationIncomeAndDebt>
+        <ExtraInformationData>
+            <UseBankID>N</UseBankID>
+            <MarketingQuestionnare/>
+            <CustomerComment/>
+            <AcceptEmail>N</AcceptEmail>
+            <IPAddress>192.168.0.0</IPAddress>
+            <AuthenticationMainSSN>None</AuthenticationMainSSN>
+            <AuthenticationCoSSN>None</AuthenticationCoSSN>
+            <UseEsignatureFlag>Y</UseEsignatureFlag>
+        </ExtraInformationData>
+    </LoanApplication>
+</DocumentInput>
+]]>
+	</documentInput>
+      </cfp:ProcessExecuteAsync>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,13 @@
+C:\Users\i776234\Documents\agent-client\obj\Debug\netcoreapp3.1\agent-client.csprojAssemblyReference.cache
+C:\Users\i776234\Documents\agent-client\obj\Debug\netcoreapp3.1\agent-client.AssemblyInfoInputs.cache
+C:\Users\i776234\Documents\agent-client\obj\Debug\netcoreapp3.1\agent-client.AssemblyInfo.cs
+C:\Users\i776234\Documents\agent-client\obj\Debug\netcoreapp3.1\agent-client.csproj.CoreCompileInputs.cache
+C:\Users\i776234\Documents\agent-client\bin\Debug\netcoreapp3.1\agent-client.exe
+C:\Users\i776234\Documents\agent-client\bin\Debug\netcoreapp3.1\agent-client.deps.json
+C:\Users\i776234\Documents\agent-client\bin\Debug\netcoreapp3.1\agent-client.runtimeconfig.json
+C:\Users\i776234\Documents\agent-client\bin\Debug\netcoreapp3.1\agent-client.runtimeconfig.dev.json
+C:\Users\i776234\Documents\agent-client\bin\Debug\netcoreapp3.1\agent-client.dll
+C:\Users\i776234\Documents\agent-client\bin\Debug\netcoreapp3.1\agent-client.pdb
+C:\Users\i776234\Documents\agent-client\obj\Debug\netcoreapp3.1\agent-client.dll
+C:\Users\i776234\Documents\agent-client\obj\Debug\netcoreapp3.1\agent-client.pdb
+C:\Users\i776234\Documents\agent-client\obj\Debug\netcoreapp3.1\agent-client.genruntimeconfig.cache
