@@ -1,1 +1,1 @@
-curl -H "Content-Type: text/xml; charset=utf-8" -H "SOAPAction:"  -d @request.xml -X POST https://test.direct.nordea.no/creditflow-agent/CFProxyWS
+curl -v -H "Expect: 200-ok" -H "Content-Type: text/xml; charset=utf-8" -H "SOAPAction:"  -d @request.xml -X POST https://test.direct.nordea.no/creditflow-agent/CFProxyWS
