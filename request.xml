@@ -1,7 +1,7 @@
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cfp="http://xmlns.crif.com/schema/CFProxy">
    <soapenv:Header>
-      <cfp:username>gbunofinans_a2a</cfp:username>
-      <cfp:password>D+AsH2DFr?#y+rdw</cfp:password>
+      <cfp:username>YOUR_USERNAME</cfp:username>
+      <cfp:password>YOUR_PWD</cfp:password>
    </soapenv:Header>
    <soapenv:Body>
       <cfp:ProcessExecuteAsync>
